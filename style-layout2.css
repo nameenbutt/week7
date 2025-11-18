@@ -1,2 +1,24 @@
 /* CSS Document — Content Boxes with Flex Layout */
 
+body{
+    background: green;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+article {
+    width: 500px; /* fix width of main content area */
+    margin: 0 auto; /* center it in the page*/
+
+h1{
+    font-size: 48pt;
+}
+
+.year {
+    display: flex; /*arrange.info-box-elements-side-by-side */
+    margin: 50px 0;
+    border: 3px solid grey;
+}
+
+
+}
